@@ -1,0 +1,51 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:666378417129:function:ask-jokeoftheday-default-default-1632936803876"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [
+        "US"
+      ],
+      "isAvailableWorldwide": false,
+      "locales": {
+        "en-US": {
+          "customProductPrompts": {
+            "purchaseConfirmationDescription": "Congratulations. You are now eligible to use {PREMIUM_CONTENT_TITLE} skill.",
+            "purchasePromptDescription": "{PREMIUM_CONTENT_TITLE} will provide new funny joke everyday."
+          },
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa open humour me"
+          ],
+          "name": "Humour me",
+          "summary": "Sample Short Description"
+        }
+      },
+      "paidSkillInformation": {
+        "pricing": {
+          "amazon.com": [
+            {
+              "currency": "USD",
+              "offerType": "SUBSCRIPTION",
+              "price": 1.99,
+              "subscriptionInformation": {
+                "subscriptionPaymentFrequency": "MONTHLY"
+              }
+            }
+          ]
+        },
+        "taxInformation": {
+          "category": "INFORMATION_SERVICES"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
