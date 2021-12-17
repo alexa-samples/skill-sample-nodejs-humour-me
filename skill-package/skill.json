@@ -40,11 +40,7 @@
       }
     },
     "apis": {
-      "custom": {
-        "endpoint": {
-          "uri": "arn:aws:lambda:us-east-1:666378417129:function:ask-jokeoftheday-default-default-1632936803876"
-        }
-      }
+      "custom": {}
     },
     "manifestVersion": "1.0"
   }
