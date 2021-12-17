@@ -1,0 +1,64 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "humour me",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "BuySubscriptionIntentHandler",
+          "slots": [],
+          "samples": [
+            "buy humour me",
+            "purchase humour me",
+            "want humour me",
+            "would like humour me"
+          ]
+        },
+        {
+          "name": "CancelSubscriptionIntentHandler",
+          "slots": [],
+          "samples": [
+            "cancel subscription to humour me",
+            "stop subscription to humour me",
+            "don't want humour me",
+            "refund humour me"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "JokeIntent",
+          "slots": [],
+          "samples": [
+            "tell me a joke",
+            "tell me a funny joke",
+            "give me a joke",
+            "give me a funny joke"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
